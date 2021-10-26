@@ -11,7 +11,8 @@
         <fieldset>
             <p>
                 <label for="uid">UID</label><br />
-                <input id="uid" name="uid" type="text" size="8" maxlength="8" />
+                <input id="uid" name="uid" type="text" size="8" maxlength="8" pattern="^\S+$"
+                required />
             </p>
             <p>
                 <label for="dt">Date</label><br/>
