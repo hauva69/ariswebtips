@@ -6,12 +6,17 @@
     <body>
         <h1>Lichess jQuery Example</h1>
 
+        <p>
+
+        </p>
+
         <button>Lichess rules!</button>
 
         <script language="javascript">
             $(document).ready(function(){
                 $("button").click(function(){
                     $("h1").toggle();
+                    $("p").text("Lichess rules!");
                 });
             });
         </script>
