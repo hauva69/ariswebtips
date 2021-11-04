@@ -16,7 +16,7 @@
             $(document).ready(function(){
                 $("button").click(function(){
                     $("h1").toggle();
-                    $.get("foo.txt", function(data, status){
+                    $.get("https://lichess.org/api/account", function(data, status){
                         alert("Data: " + data + "\nStatus: " + status);
                     });
                 });
