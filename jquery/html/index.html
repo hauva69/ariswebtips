@@ -2,13 +2,13 @@
 <html>
     <head>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    </head> 
+    </head>
     <body>
         <h1>Lichess jQuery Example</h1>
 
-        <p>
+        <pre>
 
-        </p>
+        </pre>
 
         <button>Lichess rules!</button>
 
@@ -16,7 +16,9 @@
             $(document).ready(function(){
                 $("button").click(function(){
                     $("h1").toggle();
-                    $("p").text("Lichess rules!");
+                    $.get("foo.txt", function(data, status){
+                        alert("Data: " + data + "\nStatus: " + status);
+                    });
                 });
             });
         </script>
