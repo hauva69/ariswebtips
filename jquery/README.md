@@ -1,4 +1,5 @@
 # The Lichess API
 
-https://lichess.org/api#operation/accountMe
-https://lichess.org/api/account
+- https://www.w3schools.com/jquERy/jquery_intro.asp
+- https://lichess.org/api#operation/accountMe
+- https://lichess.org/api/account
